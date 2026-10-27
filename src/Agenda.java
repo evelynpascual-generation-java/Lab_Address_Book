@@ -18,9 +18,6 @@ public class Agenda {
     }
 
     public Contacto buscarContacto(String nombre) {
-        if (!contactos.containsKey(nombre)) {
-            System.out.println("Contacto no encontrado: " + nombre);
-        }
         return contactos.get(nombre);
     }
 
